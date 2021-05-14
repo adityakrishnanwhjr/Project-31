@@ -1,7 +1,7 @@
 class Particle{
     constructor(x,y,r){
         var options={
-            restitution:0.6,
+            restitution:0.5,
             density:1,
             friction:1
         }
@@ -21,7 +21,7 @@ class Particle{
         noStroke();
         fill(this.color);
         ellipseMode(CENTER);
-        ellipse(0,0,this.r,this.r);
+        ellipse(0,0,this.r,this.r*2);
         pop();
     }
 };
