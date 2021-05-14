@@ -1,7 +1,7 @@
 class Particle{
     constructor(x,y,r){
         var options={
-            restitution:1,
+            restitution:0.6,
             density:1,
             friction:1
         }
