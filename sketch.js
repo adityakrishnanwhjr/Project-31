@@ -55,7 +55,7 @@ function draw() {
   textSize(20)
 
   if (frameCount%90===0){
-    particles.push(new Particle(random(width/2-10,width/2+10),10,15));
+    particles.push(new Particle(random(width/2-10,width/2+10),10,10));
   }
  
   Engine.update(engine);
